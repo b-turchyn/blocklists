@@ -1,10 +1,12 @@
-! Title: Copycat search results
-! Description: Remove certain domains from Google/DuckDuckGo, inspired by https://github.com/darekkay/config-files/
+! Title: Brian's copycat search results
+! Description: Removes certain domains from Google/DuckDuckGo, inspired by https://github.com/darekkay/config-files/
 ! Homepage: https://github.com/b-turchyn/blocklists/
 
 ! To add a domain, copy the below two lines, then replace `example.com`. Sort alphabetically by domain name.
 ! duckduckgo.com##[data-domain*="example.com"]
 ! google.*##.g:has(a[href*="example.com"]) 
 
+duckduckgo.com##[data-domain*="coderedirect.com"]
+google.*##.g:has(a[href*="coderedirect.com"])
 duckduckgo.com##[data-domain*="pretagteam.com"]
 google.*##.g:has(a[href*="pretagteam.com"])
