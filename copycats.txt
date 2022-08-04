@@ -18,3 +18,5 @@ duckduckgo.com##[data-domain*="ostack.cn"]
 google.*##.g:has(a[href*="ostack.cn"])
 duckduckgo.com##[data-domain*="pretagteam.com"]
 google.*##.g:has(a[href*="pretagteam.com"])
+duckduckgo.com##[data-domain*="faqcode4u.com"]
+google.*##.g:has(a[href*="faqcode4u.com"])
