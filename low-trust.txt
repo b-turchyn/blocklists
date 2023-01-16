@@ -1,0 +1,12 @@
+! Title: Low-Trust Sites
+! Description: Domains that seem to promote spam and/or have low-trust content on them
+! Homepage: https://github.com/b-turchyn/blocklists
+
+! When adding content to this, comment the line above explaining why it's on here
+
+! 2023-01-16: All filled with backlinks in an attempt to fake a reputable site, having similar content
+developmentmi.com
+starcourts.com
+websiterank.com
+! 2023-01-16: Looks like a domain misspelling
+mobillegends.net
