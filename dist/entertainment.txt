@@ -1,0 +1,8 @@
+! Title: Brian's entertainment site blocklist
+! Description: Entertainment sites that are general time-wasters
+! Homepage: https://github.com/b-turchyn/blocklists
+
+! 2023-01-16: Migration from original format
+duckduckgo.com##[data-domain*="youtube.com"]
+google.*##.g:has(a[href*="youtube.com"])
+youtube.com

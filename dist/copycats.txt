@@ -1,0 +1,36 @@
+! Title: Brian's copycat search results
+! Description: Copycat sites, that blatantly copy or source their content from other sites
+! Homepage: https://github.com/b-turchyn/blocklists
+
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="appsloveworld.com"]
+google.*##.g:has(a[href*="appsloveworld.com"])
+appsloveworld.com
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="coderedirect.com"]
+google.*##.g:has(a[href*="coderedirect.com"])
+coderedirect.com
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="faqcode4u.com"]
+google.*##.g:has(a[href*="faqcode4u.com"])
+faqcode4u.com
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="issueexplorer.com"]
+google.*##.g:has(a[href*="issueexplorer.com"])
+issueexplorer.com
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="newbedev.com"]
+google.*##.g:has(a[href*="newbedev.com"])
+newbedev.com
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="morioh.com"]
+google.*##.g:has(a[href*="morioh.com"])
+morioh.com
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="ostack.cn"]
+google.*##.g:has(a[href*="ostack.cn"])
+ostack.cn
+! 2023-01-16: Migration to scripted blocklist builder
+duckduckgo.com##[data-domain*="pretagteam.com"]
+google.*##.g:has(a[href*="pretagteam.com"])
+pretagteam.com

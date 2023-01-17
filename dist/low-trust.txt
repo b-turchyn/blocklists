@@ -1,0 +1,20 @@
+! Title: Low-Trust Sites
+! Description: Domains that seem to promote spam and/or have low-trust content on them
+! Homepage: https://github.com/b-turchyn/blocklists
+
+! 2023-01-16: All filled with backlinks in an attempt to fake a reputable site having similar content
+duckduckgo.com##[data-domain*="developmentmi.com"]
+google.*##.g:has(a[href*="developmentmi.com"])
+developmentmi.com
+! 2023-01-16: All filled with backlinks in an attempt to fake a reputable site having similar content
+duckduckgo.com##[data-domain*="starcourts.com"]
+google.*##.g:has(a[href*="starcourts.com"])
+starcourts.com
+! 2023-01-16: All filled with backlinks in an attempt to fake a reputable site having similar content
+duckduckgo.com##[data-domain*="websiterank.com"]
+google.*##.g:has(a[href*="websiterank.com"])
+websiterank.com
+! 2023-01-16: Looks like a deliberate domain misspelling
+duckduckgo.com##[data-domain*="mobillegends.net"]
+google.*##.g:has(a[href*="mobillegends.net"])
+mobillegends.net

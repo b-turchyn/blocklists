@@ -1,0 +1,19 @@
+! Title: Brian's entertainment site blocklist
+! Description: Entertainment sites that are general time-wasters
+! Homepage: https://github.com/b-turchyn/blocklists
+
+duckduckgo.com##[data-domain*="facebook.com"]
+google.*##.g:has(a[href*="facebook.com"])
+facebook.com
+duckduckgo.com##[data-domain*="imgur.com"]
+google.*##.g:has(a[href*="imgur.com"])
+imgur.com
+duckduckgo.com##[data-domain*="instagram.com"]
+google.*##.g:has(a[href*="instagram.com"])
+instagram.com
+duckduckgo.com##[data-domain*="reddit.com"]
+google.*##.g:has(a[href*="reddit.com"])
+reddit.com
+duckduckgo.com##[data-domain*="twitter.com"]
+google.*##.g:has(a[href*="twitter.com"])
+twitter.com

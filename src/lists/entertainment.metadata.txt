@@ -1,0 +1,4 @@
+! Title: Brian's entertainment site blocklist
+! Description: Entertainment sites that are general time-wasters
+! Homepage: https://github.com/b-turchyn/blocklists
+

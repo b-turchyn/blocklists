@@ -1,0 +1,4 @@
+! Title: Brian's copycat search results
+! Description: Copycat sites, that blatantly copy or source their content from other sites
+! Homepage: https://github.com/b-turchyn/blocklists
+

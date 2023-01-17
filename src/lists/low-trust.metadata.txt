@@ -1,0 +1,4 @@
+! Title: Low-Trust Sites
+! Description: Domains that seem to promote spam and/or have low-trust content on them
+! Homepage: https://github.com/b-turchyn/blocklists
+
