@@ -6,6 +6,10 @@
 ! duckduckgo.com##[data-domain*="example.com"]
 ! google.*##.g:has(a[href*="example.com"]) 
 
+! 2024-06-11: I'll eat my shirt if this whole site isn't AI-generated
+duckduckgo.com##[data-domain*="codeease.net"]
+google.*##.g:has(a[href*="codeease.net"]) 
+
 duckduckgo.com##[data-domain*="coderedirect.com"]
 google.*##.g:has(a[href*="coderedirect.com"])
 duckduckgo.com##[data-domain*="issueexplorer.com"]
@@ -22,3 +26,4 @@ duckduckgo.com##[data-domain*="faqcode4u.com"]
 google.*##.g:has(a[href*="faqcode4u.com"])
 duckduckgo.com##[data-domain*="appsloveworld.com"]
 google.*##.g:has(a[href*="appsloveworld.com"])
+
