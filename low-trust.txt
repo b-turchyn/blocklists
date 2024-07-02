@@ -10,3 +10,5 @@ starcourts.com
 websiterank.com
 ! 2023-01-16: Looks like a domain misspelling
 mobillegends.net
+! 2024-07-02: Source of phishing emails
+clk71.com
