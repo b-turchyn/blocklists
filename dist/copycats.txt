@@ -34,3 +34,7 @@ ostack.cn
 duckduckgo.com##[data-domain*="pretagteam.com"]
 google.*##.g:has(a[href*="pretagteam.com"])
 pretagteam.com
+! 2024-06-11: I'll eat my shirt if this whole site isn't AI-generated
+duckduckgo.com##[data-domain*="codeease.net"]
+google.*##.g:has(a[href*="codeease.net"])
+codeease.net

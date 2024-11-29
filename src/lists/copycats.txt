@@ -6,3 +6,4 @@ newbedev.com,2023-01-16,Migration to scripted blocklist builder
 morioh.com,2023-01-16,Migration to scripted blocklist builder
 ostack.cn,2023-01-16,Migration to scripted blocklist builder
 pretagteam.com,2023-01-16,Migration to scripted blocklist builder
+codeease.net,2024-06-11,I'll eat my shirt if this whole site isn't AI-generated
