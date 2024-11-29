@@ -18,3 +18,11 @@ websiterank.com
 duckduckgo.com##[data-domain*="mobillegends.net"]
 google.*##.g:has(a[href*="mobillegends.net"])
 mobillegends.net
+! 2024-07-02: Source of phishing emails
+duckduckgo.com##[data-domain*="clk71.com"]
+google.*##.g:has(a[href*="clk71.com"])
+clk71.com
+! 2024-11-29: Blatant theft of Baeldung's content
+duckduckgo.com##[data-domain*="debugah.com"]
+google.*##.g:has(a[href*="debugah.com"])
+debugah.com
