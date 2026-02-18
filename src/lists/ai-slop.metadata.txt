@@ -1,0 +1,5 @@
+! Title: Brian's AI slop blocklist
+! Description: Sites using ✨AI✨ to make the internet a worse place
+! Homepage: https://github.com/b-turchyn/blocklists
+
+

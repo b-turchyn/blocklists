@@ -30,6 +30,19 @@ function leechblock_file() {
   echo -n "Leechblock..."
 }
 
+function adblock_file() {
+  metadata="${1}"
+  input="${2}"
+  output="${3/.txt/.dns.txt}"
+
+  awk -v OFS='\n' '{
+  n = split($0, fields, ",");
+  print "# " fields[2] ": " fields[3];
+  print "||" fields[1] "^";
+}' "${input}" >> "${output}"
+  echo -n "DNS..."
+}
+
 # Get root directory of repo
 root="$(git rev-parse --show-cdup)"
 srcpath="${root}src/lists/"
@@ -47,6 +60,7 @@ for i in $(ls ${srcpath}*.metadata.txt); do
 
   ublock_file "${i}" "${srcfile}" "${dstfile}"
   leechblock_file "${i}" "${srcfile}" "${dstfile}"
+  adblock_file "${i}" "${srcfile}" "${dstfile}"
   echo "Done!"
 done
 

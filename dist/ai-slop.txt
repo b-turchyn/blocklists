@@ -1,0 +1,9 @@
+! Title: Brian's AI slop blocklist
+! Description: Sites using ✨AI✨ to make the internet a worse place
+! Homepage: https://github.com/b-turchyn/blocklists
+
+
+! 2016-02-18: I don't need AI marketing shoved down my throat.
+duckduckgo.com##[data-domain*="cello.so"]
+google.*##.g:has(a[href*="cello.so"])
+cello.so
